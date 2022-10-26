@@ -1,1 +1,1 @@
-View [Travel Homepage](vlopeznadal-travel-homepage.netlify.app)
+View [Travel Homepage](http://www.vlopeznadal-travel-homepage.netlify.app)
