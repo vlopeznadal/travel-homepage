@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #04101d;
+}
+
+/* SECTIONS */
+
+#hero {
+    height: 650px;
+    background-image: url("images/seattle.jpg");
+    background-size: cover;
+}
+
+#activities {
+    background: #EAB683;
+    padding: 10px 0 25px;
+}
+
+.activity {
+    width: 350px;
+}
+
+#guide {
+    background: #263850;
+    padding: 50px 0;
+}
+
+#card {
+    background: linear-gradient(#BA896D, #EAB683);
+    width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    border-top: 8px solid #C6B3B7;
+    border-bottom: 8px solid #C6B3B7;
+}
+
+#card-info {
+    width: 250px;
+    align-self: center;
+}
+
+#sources {
+    background: #C6B3B7;
+    padding: 10px;
+}
+
+/* FLEXBOX */
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+/* HEADERS */
+
+h1 {
+    font-size: 72px;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 0 0 10px #fff;
+    margin: 0;
+}
+
+h2 {
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#hero h2 {
+    background: #C6B3B7;
+    align-self: center;
+}
+
+#card h2 {
+    margin: 0;
+}
+
+h3 {
+    color: #263850;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+/* LISTS */
+
+#sources ul,li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+/* LINKS */
+
+a {
+    text-decoration: none;
+    color: #C50B0A;
+}
+
+/* IMAGES */
+
+.activity-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#card img {
+    width: 150px;
+    height: 300px;
+    border-radius: 5px;
+}
